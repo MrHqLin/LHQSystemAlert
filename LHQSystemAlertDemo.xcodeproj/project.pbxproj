@@ -14,6 +14,7 @@
 		3E49A3DA2244DD4B00D261B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E49A3D82244DD4B00D261B2 /* LaunchScreen.storyboard */; };
 		3E49A3E52244DD4B00D261B2 /* LHQSystemAlertDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A3E42244DD4B00D261B2 /* LHQSystemAlertDemoTests.swift */; };
 		3E49A3F02244DD4B00D261B2 /* LHQSystemAlertDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A3EF2244DD4B00D261B2 /* LHQSystemAlertDemoUITests.swift */; };
+		3E49A3FE2244DD8800D261B2 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E49A3FD2244DD8800D261B2 /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3E49A3EB2244DD4B00D261B2 /* LHQSystemAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHQSystemAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E49A3EF2244DD4B00D261B2 /* LHQSystemAlertDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHQSystemAlertDemoUITests.swift; sourceTree = "<group>"; };
 		3E49A3F12244DD4B00D261B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E49A3FD2244DD8800D261B2 /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3E49A3CF2244DD4200D261B2 /* AppDelegate.swift */,
 				3E49A3D12244DD4200D261B2 /* ViewController.swift */,
+				3E49A3FD2244DD8800D261B2 /* AlertService.swift */,
 				3E49A3D32244DD4200D261B2 /* Main.storyboard */,
 				3E49A3D62244DD4B00D261B2 /* Assets.xcassets */,
 				3E49A3D82244DD4B00D261B2 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E49A3D22244DD4200D261B2 /* ViewController.swift in Sources */,
+				3E49A3FE2244DD8800D261B2 /* AlertService.swift in Sources */,
 				3E49A3D02244DD4200D261B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
 				INFOPLIST_FILE = LHQSystemAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP4T4JWN4J;
 				INFOPLIST_FILE = LHQSystemAlertDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
