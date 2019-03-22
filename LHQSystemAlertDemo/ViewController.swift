@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor.white
         for i in 0..<3 {
             let button = UIButton.init()
             button.setTitle("show\(i)", for: .normal)
